@@ -9,7 +9,7 @@ class MainViewController: UIViewController {
     @IBOutlet weak var splitAmount: UILabel!
     @IBOutlet weak var billTotal: UITextField!
     
-    var billBrain = BillBrain(selectedBillTotal: 0.0, selectedSelectedTip: 0.1, selectedSplitAmount: 2)
+    var billBrain = BillBrain(selectedBillTotal: 0.0, selectedSelectedTip: 1.1, selectedSplitAmount: 2)
     
     @IBAction func calculateButton(_ sender: UIButton) {
         if billBrain.selectedBillTotal != 0 {
